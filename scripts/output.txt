@@ -1,0 +1,48 @@
+IRSB {
+   t0:Ity_I64 t1:Ity_I64 t2:Ity_I64 t3:Ity_I64 t4:Ity_I64 t5:Ity_I64 t6:Ity_I64 t7:Ity_I64 t8:Ity_I64 t9:Ity_I64 t10:Ity_I64 t11:Ity_I64 t12:Ity_I64 t13:Ity_I64 t14:Ity_I64 t15:Ity_I64 t16:Ity_I32 t17:Ity_I64 t18:Ity_I64 t19:Ity_I64 t20:Ity_I64 t21:Ity_I64 t22:Ity_I64 t23:Ity_I64 t24:Ity_I64 t25:Ity_I64 t26:Ity_I64 t27:Ity_I64 t28:Ity_I64 t29:Ity_I64
+
+   00 | ------ IMark(0x40071d, 1, 0) ------
+   01 | t0 = GET:I64(rbp)
+   02 | t12 = GET:I64(rsp)
+   03 | t11 = Sub64(t12,0x0000000000000008)
+   04 | PUT(rsp) = t11
+   05 | STle(t11) = t0
+   06 | ------ IMark(0x40071e, 3, 0) ------
+   07 | PUT(rbp) = t11
+   08 | ------ IMark(0x400721, 4, 0) ------
+   09 | t2 = Sub64(t11,0x0000000000000040)
+   10 | PUT(cc_op) = 0x0000000000000008
+   11 | PUT(cc_dep1) = t11
+   12 | PUT(cc_dep2) = 0x0000000000000040
+   13 | PUT(rsp) = t2
+   14 | PUT(rip) = 0x0000000000400725
+   15 | ------ IMark(0x400725, 3, 0) ------
+   16 | t14 = Add64(t11,0xffffffffffffffcc)
+   17 | t17 = GET:I64(rdi)
+   18 | t16 = 64to32(t17)
+   19 | STle(t14) = t16
+   20 | PUT(rip) = 0x0000000000400728
+   21 | ------ IMark(0x400728, 4, 0) ------
+   22 | t18 = Add64(t11,0xffffffffffffffc0)
+   23 | t20 = GET:I64(rsi)
+   24 | STle(t18) = t20
+   25 | PUT(rip) = 0x000000000040072c
+   26 | ------ IMark(0x40072c, 4, 0) ------
+   27 | t21 = Add64(t11,0xfffffffffffffff8)
+   28 | STle(t21) = 0x00
+   29 | PUT(rip) = 0x0000000000400730
+   30 | ------ IMark(0x400730, 4, 0) ------
+   31 | t23 = Add64(t11,0xffffffffffffffe8)
+   32 | STle(t23) = 0x00
+   33 | ------ IMark(0x400734, 5, 0) ------
+   34 | PUT(rdi) = 0x0000000000400915
+   35 | PUT(rip) = 0x0000000000400739
+   36 | ------ IMark(0x400739, 5, 0) ------
+   37 | t26 = Sub64(t2,0x0000000000000008)
+   38 | PUT(rsp) = t26
+   39 | STle(t26) = 0x000000000040073e
+   40 | t28 = Sub64(t26,0x0000000000000080)
+   41 | ====== AbiHint(0xt28, 128, 0x0000000000400510) ======
+   NEXT: PUT(rip) = 0x0000000000400510; Ijk_Call
+}
+None

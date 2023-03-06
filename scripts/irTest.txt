@@ -1,0 +1,722 @@
+stmt:  ------ IMark(0x4004e0, 4, 0) ------
+stmt:  t2 = GET:I64(offset=48)
+stmt:  t0 = Sub64(t2,0x0000000000000008)
+stmt:  PUT(offset=144) = 0x0000000000000008
+stmt:  PUT(offset=152) = t2
+stmt:  PUT(offset=160) = 0x0000000000000008
+stmt:  PUT(offset=184) = 0x00000000004004e4
+stmt:  ------ IMark(0x4004e4, 5, 0) ------
+stmt:  t5 = Sub64(t0,0x0000000000000008)
+stmt:  PUT(offset=48) = t5
+stmt:  STle(t5) = 0x00000000004004e9
+stmt:  t7 = Sub64(t5,0x0000000000000080)
+stmt:  ====== AbiHint(0xt7, 128, 0x00000000004005ac) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4004e9, 5, 0) ------
+stmt:  t3 = GET:I64(offset=48)
+stmt:  t2 = Sub64(t3,0x0000000000000008)
+stmt:  PUT(offset=48) = t2
+stmt:  STle(t2) = 0x00000000004004ee
+stmt:  t4 = Sub64(t2,0x0000000000000080)
+stmt:  ====== AbiHint(0xt4, 128, 0x0000000000400640) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4004ee, 5, 0) ------
+stmt:  t3 = GET:I64(offset=48)
+stmt:  t2 = Sub64(t3,0x0000000000000008)
+stmt:  PUT(offset=48) = t2
+stmt:  STle(t2) = 0x00000000004004f3
+stmt:  t4 = Sub64(t2,0x0000000000000080)
+stmt:  ====== AbiHint(0xt4, 128, 0x0000000000400880) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400580, 2, 0) ------
+stmt:  PUT(offset=56) = 0x0000000000000000
+stmt:  ------ IMark(0x400582, 3, 0) ------
+stmt:  t21 = GET:I64(offset=32)
+stmt:  PUT(offset=88) = t21
+stmt:  PUT(offset=184) = 0x0000000000400585
+stmt:  ------ IMark(0x400585, 1, 0) ------
+stmt:  t4 = GET:I64(offset=48)
+stmt:  t3 = LDle:I64(t4)
+stmt:  t22 = Add64(t4,0x0000000000000008)
+stmt:  PUT(offset=64) = t3
+stmt:  ------ IMark(0x400586, 3, 0) ------
+stmt:  PUT(offset=32) = t22
+stmt:  ------ IMark(0x400589, 4, 0) ------
+stmt:  t5 = And64(t22,0xfffffffffffffff0)
+stmt:  PUT(offset=144) = 0x0000000000000014
+stmt:  PUT(offset=152) = t5
+stmt:  PUT(offset=160) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x000000000040058d
+stmt:  ------ IMark(0x40058d, 1, 0) ------
+stmt:  t8 = GET:I64(offset=16)
+stmt:  t24 = Sub64(t5,0x0000000000000008)
+stmt:  PUT(offset=48) = t24
+stmt:  STle(t24) = t8
+stmt:  PUT(offset=184) = 0x000000000040058e
+stmt:  ------ IMark(0x40058e, 1, 0) ------
+stmt:  t26 = Sub64(t24,0x0000000000000008)
+stmt:  PUT(offset=48) = t26
+stmt:  STle(t26) = t24
+stmt:  ------ IMark(0x40058f, 7, 0) ------
+stmt:  PUT(offset=80) = 0x0000000000400870
+stmt:  ------ IMark(0x400596, 7, 0) ------
+stmt:  PUT(offset=24) = 0x00000000004007e0
+stmt:  ------ IMark(0x40059d, 7, 0) ------
+stmt:  PUT(offset=72) = 0x000000000040071d
+stmt:  PUT(offset=184) = 0x00000000004005a4
+stmt:  ------ IMark(0x4005a4, 5, 0) ------
+stmt:  t28 = Sub64(t26,0x0000000000000008)
+stmt:  PUT(offset=48) = t28
+stmt:  STle(t28) = 0x00000000004005a9
+stmt:  t30 = Sub64(t28,0x0000000000000080)
+stmt:  ====== AbiHint(0xt30, 128, 0x0000000000400540) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4005bc, 2, 0) ------
+stmt:  t4 = GET:I64(offset=16)
+stmt:  t6 = GET:I64(offset=48)
+stmt:  t5 = Sub64(t6,0x0000000000000008)
+stmt:  PUT(offset=48) = t5
+stmt:  STle(t5) = 0x00000000004005be
+stmt:  t7 = Sub64(t5,0x0000000000000080)
+stmt:  ====== AbiHint(0xt7, 128, t4) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400608, 4, 0) ------
+stmt:  t2 = GET:I64(offset=16)
+stmt:  t0 = Add64(t2,0x0000000000000001)
+stmt:  PUT(offset=144) = 0x0000000000000004
+stmt:  PUT(offset=152) = t2
+stmt:  PUT(offset=160) = 0x0000000000000001
+stmt:  PUT(offset=16) = t0
+stmt:  PUT(offset=184) = 0x000000000040060c
+stmt:  ------ IMark(0x40060c, 7, 0) ------
+stmt:  STle(0x0000000000601058) = t0
+stmt:  PUT(offset=184) = 0x0000000000400613
+stmt:  ------ IMark(0x400613, 7, 0) ------
+stmt:  t10 = Shl64(t0,0x03)
+stmt:  t9 = Add64(t10,0x0000000000600e38)
+stmt:  t6 = LDle:I64(t9)
+stmt:  t13 = GET:I64(offset=48)
+stmt:  t12 = Sub64(t13,0x0000000000000008)
+stmt:  PUT(offset=48) = t12
+stmt:  STle(t12) = 0x000000000040061a
+stmt:  t14 = Sub64(t12,0x0000000000000080)
+stmt:  ====== AbiHint(0xt14, 128, t6) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400664, 1, 0) ------
+stmt:  t0 = GET:I64(offset=56)
+stmt:  t13 = GET:I64(offset=48)
+stmt:  t12 = Sub64(t13,0x0000000000000008)
+stmt:  PUT(offset=48) = t12
+stmt:  STle(t12) = t0
+stmt:  ------ IMark(0x400665, 3, 0) ------
+stmt:  PUT(offset=56) = t12
+stmt:  ------ IMark(0x400668, 4, 0) ------
+stmt:  t2 = Sub64(t12,0x0000000000000020)
+stmt:  PUT(offset=144) = 0x0000000000000008
+stmt:  PUT(offset=152) = t12
+stmt:  PUT(offset=160) = 0x0000000000000020
+stmt:  PUT(offset=48) = t2
+stmt:  PUT(offset=184) = 0x000000000040066c
+stmt:  ------ IMark(0x40066c, 4, 0) ------
+stmt:  t15 = Add64(t12,0xffffffffffffffe8)
+stmt:  t17 = GET:I64(offset=72)
+stmt:  STle(t15) = t17
+stmt:  PUT(offset=184) = 0x0000000000400670
+stmt:  ------ IMark(0x400670, 4, 0) ------
+stmt:  t18 = Add64(t12,0xffffffffffffffe0)
+stmt:  t20 = GET:I64(offset=64)
+stmt:  STle(t18) = t20
+stmt:  PUT(offset=184) = 0x0000000000400674
+stmt:  ------ IMark(0x400674, 4, 0) ------
+stmt:  t21 = Add64(t12,0xfffffffffffffff8)
+stmt:  STle(t21) = 0x00
+stmt:  PUT(offset=184) = 0x0000000000400678
+stmt:  ------ IMark(0x400678, 7, 0) ------
+stmt:  t23 = LDle:I64(0x0000000000601048)
+stmt:  PUT(offset=32) = t23
+stmt:  PUT(offset=184) = 0x000000000040067f
+stmt:  ------ IMark(0x40067f, 4, 0) ------
+stmt:  t24 = Add64(t12,0xffffffffffffffe0)
+stmt:  t26 = LDle:I64(t24)
+stmt:  PUT(offset=16) = t26
+stmt:  ------ IMark(0x400683, 3, 0) ------
+stmt:  PUT(offset=64) = t23
+stmt:  ------ IMark(0x400686, 3, 0) ------
+stmt:  PUT(offset=72) = t26
+stmt:  PUT(offset=184) = 0x0000000000400689
+stmt:  ------ IMark(0x400689, 5, 0) ------
+stmt:  t29 = Sub64(t2,0x0000000000000008)
+stmt:  PUT(offset=48) = t29
+stmt:  STle(t29) = 0x000000000040068e
+stmt:  t31 = Sub64(t29,0x0000000000000080)
+stmt:  ====== AbiHint(0xt31, 128, 0x0000000000400550) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400699, 4, 0) ------
+stmt:  t4 = GET:I64(offset=56)
+stmt:  t3 = Add64(t4,0xffffffffffffffe8)
+stmt:  t5 = LDle:I64(t3)
+stmt:  ------ IMark(0x40069d, 5, 0) ------
+stmt:  PUT(offset=64) = 0x0000000000000000
+stmt:  ------ IMark(0x4006a2, 3, 0) ------
+stmt:  PUT(offset=72) = t5
+stmt:  ------ IMark(0x4006a5, 5, 0) ------
+stmt:  PUT(offset=16) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x00000000004006aa
+stmt:  ------ IMark(0x4006aa, 5, 0) ------
+stmt:  t10 = GET:I64(offset=48)
+stmt:  t9 = Sub64(t10,0x0000000000000008)
+stmt:  PUT(offset=48) = t9
+stmt:  STle(t9) = 0x00000000004006af
+stmt:  t11 = Sub64(t9,0x0000000000000080)
+stmt:  ====== AbiHint(0xt11, 128, 0x0000000000400560) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4006af, 3, 0) ------
+stmt:  t6 = GET:I64(offset=56)
+stmt:  t5 = Add64(t6,0xfffffffffffffffc)
+stmt:  t8 = GET:I64(offset=16)
+stmt:  t7 = 64to32(t8)
+stmt:  STle(t5) = t7
+stmt:  ------ IMark(0x4006b2, 4, 0) ------
+stmt:  t9 = Add64(t6,0xfffffffffffffff0)
+stmt:  PUT(offset=24) = t9
+stmt:  PUT(offset=184) = 0x00000000004006b6
+stmt:  ------ IMark(0x4006b6, 3, 0) ------
+stmt:  t11 = Add64(t6,0xfffffffffffffffc)
+stmt:  t14 = LDle:I32(t11)
+stmt:  t13 = 32Uto64(t14)
+stmt:  PUT(offset=16) = t13
+stmt:  ------ IMark(0x4006b9, 5, 0) ------
+stmt:  PUT(offset=32) = 0x0000000000000008
+stmt:  ------ IMark(0x4006be, 3, 0) ------
+stmt:  PUT(offset=64) = t9
+stmt:  ------ IMark(0x4006c1, 2, 0) ------
+stmt:  t18 = 64to32(t13)
+stmt:  t17 = 32Uto64(t18)
+stmt:  PUT(offset=72) = t17
+stmt:  PUT(offset=184) = 0x00000000004006c3
+stmt:  ------ IMark(0x4006c3, 5, 0) ------
+stmt:  t21 = GET:I64(offset=48)
+stmt:  t20 = Sub64(t21,0x0000000000000008)
+stmt:  PUT(offset=48) = t20
+stmt:  STle(t20) = 0x00000000004006c8
+stmt:  t22 = Sub64(t20,0x0000000000000080)
+stmt:  ====== AbiHint(0xt22, 128, 0x0000000000400530) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4006c8, 4, 0) ------
+stmt:  t5 = GET:I64(offset=56)
+stmt:  t4 = Add64(t5,0xfffffffffffffff0)
+stmt:  PUT(offset=32) = t4
+stmt:  PUT(offset=184) = 0x00000000004006cc
+stmt:  ------ IMark(0x4006cc, 4, 0) ------
+stmt:  t6 = Add64(t5,0xffffffffffffffe0)
+stmt:  t8 = LDle:I64(t6)
+stmt:  PUT(offset=16) = t8
+stmt:  ------ IMark(0x4006d0, 3, 0) ------
+stmt:  PUT(offset=64) = t4
+stmt:  ------ IMark(0x4006d3, 3, 0) ------
+stmt:  PUT(offset=72) = t8
+stmt:  PUT(offset=184) = 0x00000000004006d6
+stmt:  ------ IMark(0x4006d6, 5, 0) ------
+stmt:  t12 = GET:I64(offset=48)
+stmt:  t11 = Sub64(t12,0x0000000000000008)
+stmt:  PUT(offset=48) = t11
+stmt:  STle(t11) = 0x00000000004006db
+stmt:  t13 = Sub64(t11,0x0000000000000080)
+stmt:  ====== AbiHint(0xt13, 128, 0x0000000000400550) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4006ed, 1, 0) ------
+stmt:  t0 = GET:I64(offset=56)
+stmt:  t5 = GET:I64(offset=48)
+stmt:  t4 = Sub64(t5,0x0000000000000008)
+stmt:  PUT(offset=48) = t4
+stmt:  STle(t4) = t0
+stmt:  ------ IMark(0x4006ee, 3, 0) ------
+stmt:  PUT(offset=56) = t4
+stmt:  ------ IMark(0x4006f1, 5, 0) ------
+stmt:  PUT(offset=72) = 0x00000000004008e0
+stmt:  PUT(offset=184) = 0x00000000004006f6
+stmt:  ------ IMark(0x4006f6, 5, 0) ------
+stmt:  t8 = Sub64(t4,0x0000000000000008)
+stmt:  PUT(offset=48) = t8
+stmt:  STle(t8) = 0x00000000004006fb
+stmt:  t10 = Sub64(t8,0x0000000000000080)
+stmt:  ====== AbiHint(0xt10, 128, 0x0000000000400510) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4006fd, 1, 0) ------
+stmt:  t0 = GET:I64(offset=56)
+stmt:  t5 = GET:I64(offset=48)
+stmt:  t4 = Sub64(t5,0x0000000000000008)
+stmt:  PUT(offset=48) = t4
+stmt:  STle(t4) = t0
+stmt:  ------ IMark(0x4006fe, 3, 0) ------
+stmt:  PUT(offset=56) = t4
+stmt:  ------ IMark(0x400701, 5, 0) ------
+stmt:  ------ IMark(0x400706, 3, 0) ------
+stmt:  PUT(offset=72) = 0x000000000040090c
+stmt:  ------ IMark(0x400709, 5, 0) ------
+stmt:  PUT(offset=16) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x000000000040070e
+stmt:  ------ IMark(0x40070e, 5, 0) ------
+stmt:  t10 = Sub64(t4,0x0000000000000008)
+stmt:  PUT(offset=48) = t10
+stmt:  STle(t10) = 0x0000000000400713
+stmt:  t12 = Sub64(t10,0x0000000000000080)
+stmt:  ====== AbiHint(0xt12, 128, 0x0000000000400520) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400713, 5, 0) ------
+stmt:  PUT(offset=72) = 0x0000000000000001
+stmt:  PUT(offset=184) = 0x0000000000400718
+stmt:  ------ IMark(0x400718, 5, 0) ------
+stmt:  t4 = GET:I64(offset=48)
+stmt:  t3 = Sub64(t4,0x0000000000000008)
+stmt:  PUT(offset=48) = t3
+stmt:  STle(t3) = 0x000000000040071d
+stmt:  t5 = Sub64(t3,0x0000000000000080)
+stmt:  ====== AbiHint(0xt5, 128, 0x0000000000400570) ======
+
+
+
+
+
+stmt:  ------ IMark(0x40071d, 1, 0) ------
+stmt:  t0 = GET:I64(offset=56)
+stmt:  t12 = GET:I64(offset=48)
+stmt:  t11 = Sub64(t12,0x0000000000000008)
+stmt:  PUT(offset=48) = t11
+stmt:  STle(t11) = t0
+stmt:  ------ IMark(0x40071e, 3, 0) ------
+stmt:  PUT(offset=56) = t11
+stmt:  ------ IMark(0x400721, 4, 0) ------
+stmt:  t2 = Sub64(t11,0x0000000000000040)
+stmt:  PUT(offset=144) = 0x0000000000000008
+stmt:  PUT(offset=152) = t11
+stmt:  PUT(offset=160) = 0x0000000000000040
+stmt:  PUT(offset=48) = t2
+stmt:  PUT(offset=184) = 0x0000000000400725
+stmt:  ------ IMark(0x400725, 3, 0) ------
+stmt:  t14 = Add64(t11,0xffffffffffffffcc)
+stmt:  t17 = GET:I64(offset=72)
+stmt:  t16 = 64to32(t17)
+stmt:  STle(t14) = t16
+stmt:  PUT(offset=184) = 0x0000000000400728
+stmt:  ------ IMark(0x400728, 4, 0) ------
+stmt:  t18 = Add64(t11,0xffffffffffffffc0)
+stmt:  t20 = GET:I64(offset=64)
+stmt:  STle(t18) = t20
+stmt:  PUT(offset=184) = 0x000000000040072c
+stmt:  ------ IMark(0x40072c, 4, 0) ------
+stmt:  t21 = Add64(t11,0xfffffffffffffff8)
+stmt:  STle(t21) = 0x00
+stmt:  PUT(offset=184) = 0x0000000000400730
+stmt:  ------ IMark(0x400730, 4, 0) ------
+stmt:  t23 = Add64(t11,0xffffffffffffffe8)
+stmt:  STle(t23) = 0x00
+stmt:  ------ IMark(0x400734, 5, 0) ------
+stmt:  PUT(offset=72) = 0x0000000000400915
+stmt:  PUT(offset=184) = 0x0000000000400739
+stmt:  ------ IMark(0x400739, 5, 0) ------
+stmt:  t26 = Sub64(t2,0x0000000000000008)
+stmt:  PUT(offset=48) = t26
+stmt:  STle(t26) = 0x000000000040073e
+stmt:  t28 = Sub64(t26,0x0000000000000080)
+stmt:  ====== AbiHint(0xt28, 128, 0x0000000000400510) ======
+
+
+
+
+
+stmt:  ------ IMark(0x40073e, 4, 0) ------
+stmt:  t4 = GET:I64(offset=56)
+stmt:  t3 = Add64(t4,0xfffffffffffffff0)
+stmt:  PUT(offset=16) = t3
+stmt:  ------ IMark(0x400742, 5, 0) ------
+stmt:  PUT(offset=32) = 0x0000000000000008
+stmt:  ------ IMark(0x400747, 3, 0) ------
+stmt:  PUT(offset=64) = t3
+stmt:  ------ IMark(0x40074a, 5, 0) ------
+stmt:  PUT(offset=72) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x000000000040074f
+stmt:  ------ IMark(0x40074f, 5, 0) ------
+stmt:  t9 = GET:I64(offset=48)
+stmt:  t8 = Sub64(t9,0x0000000000000008)
+stmt:  PUT(offset=48) = t8
+stmt:  STle(t8) = 0x0000000000400754
+stmt:  t10 = Sub64(t8,0x0000000000000080)
+stmt:  ====== AbiHint(0xt10, 128, 0x0000000000400530) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400754, 4, 0) ------
+stmt:  t4 = GET:I64(offset=56)
+stmt:  t3 = Add64(t4,0xffffffffffffffdc)
+stmt:  PUT(offset=16) = t3
+stmt:  ------ IMark(0x400758, 5, 0) ------
+stmt:  PUT(offset=32) = 0x0000000000000001
+stmt:  ------ IMark(0x40075d, 3, 0) ------
+stmt:  PUT(offset=64) = t3
+stmt:  ------ IMark(0x400760, 5, 0) ------
+stmt:  PUT(offset=72) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x0000000000400765
+stmt:  ------ IMark(0x400765, 5, 0) ------
+stmt:  t9 = GET:I64(offset=48)
+stmt:  t8 = Sub64(t9,0x0000000000000008)
+stmt:  PUT(offset=48) = t8
+stmt:  STle(t8) = 0x000000000040076a
+stmt:  t10 = Sub64(t8,0x0000000000000080)
+stmt:  ====== AbiHint(0xt10, 128, 0x0000000000400530) ======
+
+
+
+
+
+stmt:  ------ IMark(0x40076a, 5, 0) ------
+stmt:  PUT(offset=72) = 0x0000000000400920
+stmt:  PUT(offset=184) = 0x000000000040076f
+stmt:  ------ IMark(0x40076f, 5, 0) ------
+stmt:  t4 = GET:I64(offset=48)
+stmt:  t3 = Sub64(t4,0x0000000000000008)
+stmt:  PUT(offset=48) = t3
+stmt:  STle(t3) = 0x0000000000400774
+stmt:  t5 = Sub64(t3,0x0000000000000080)
+stmt:  ====== AbiHint(0xt5, 128, 0x0000000000400510) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400774, 4, 0) ------
+stmt:  t4 = GET:I64(offset=56)
+stmt:  t3 = Add64(t4,0xffffffffffffffe0)
+stmt:  PUT(offset=16) = t3
+stmt:  ------ IMark(0x400778, 5, 0) ------
+stmt:  PUT(offset=32) = 0x0000000000000008
+stmt:  ------ IMark(0x40077d, 3, 0) ------
+stmt:  PUT(offset=64) = t3
+stmt:  ------ IMark(0x400780, 5, 0) ------
+stmt:  PUT(offset=72) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x0000000000400785
+stmt:  ------ IMark(0x400785, 5, 0) ------
+stmt:  t9 = GET:I64(offset=48)
+stmt:  t8 = Sub64(t9,0x0000000000000008)
+stmt:  PUT(offset=48) = t8
+stmt:  STle(t8) = 0x000000000040078a
+stmt:  t10 = Sub64(t8,0x0000000000000080)
+stmt:  ====== AbiHint(0xt10, 128, 0x0000000000400530) ======
+
+
+
+
+
+stmt:  ------ IMark(0x40078a, 4, 0) ------
+stmt:  t4 = GET:I64(offset=56)
+stmt:  t3 = Add64(t4,0xffffffffffffffdc)
+stmt:  PUT(offset=16) = t3
+stmt:  ------ IMark(0x40078e, 5, 0) ------
+stmt:  PUT(offset=32) = 0x0000000000000001
+stmt:  ------ IMark(0x400793, 3, 0) ------
+stmt:  PUT(offset=64) = t3
+stmt:  ------ IMark(0x400796, 5, 0) ------
+stmt:  PUT(offset=72) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x000000000040079b
+stmt:  ------ IMark(0x40079b, 5, 0) ------
+stmt:  t9 = GET:I64(offset=48)
+stmt:  t8 = Sub64(t9,0x0000000000000008)
+stmt:  PUT(offset=48) = t8
+stmt:  STle(t8) = 0x00000000004007a0
+stmt:  t10 = Sub64(t8,0x0000000000000080)
+stmt:  ====== AbiHint(0xt10, 128, 0x0000000000400530) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4007a0, 4, 0) ------
+stmt:  t5 = GET:I64(offset=56)
+stmt:  t4 = Add64(t5,0xffffffffffffffe0)
+stmt:  PUT(offset=32) = t4
+stmt:  ------ IMark(0x4007a4, 4, 0) ------
+stmt:  t6 = Add64(t5,0xfffffffffffffff0)
+stmt:  PUT(offset=16) = t6
+stmt:  ------ IMark(0x4007a8, 3, 0) ------
+stmt:  PUT(offset=64) = t4
+stmt:  ------ IMark(0x4007ab, 3, 0) ------
+stmt:  PUT(offset=72) = t6
+stmt:  PUT(offset=184) = 0x00000000004007ae
+stmt:  ------ IMark(0x4007ae, 5, 0) ------
+stmt:  t11 = GET:I64(offset=48)
+stmt:  t10 = Sub64(t11,0x0000000000000008)
+stmt:  PUT(offset=48) = t10
+stmt:  STle(t10) = 0x00000000004007b3
+stmt:  t12 = Sub64(t10,0x0000000000000080)
+stmt:  ====== AbiHint(0xt12, 128, 0x0000000000400664) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4007c9, 5, 0) ------
+stmt:  PUT(offset=16) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x00000000004007ce
+stmt:  ------ IMark(0x4007ce, 5, 0) ------
+stmt:  t4 = GET:I64(offset=48)
+stmt:  t3 = Sub64(t4,0x0000000000000008)
+stmt:  PUT(offset=48) = t3
+stmt:  STle(t3) = 0x00000000004007d3
+stmt:  t5 = Sub64(t3,0x0000000000000080)
+stmt:  ====== AbiHint(0xt5, 128, 0x00000000004006fd) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4007bd, 5, 0) ------
+stmt:  PUT(offset=16) = 0x0000000000000000
+stmt:  PUT(offset=184) = 0x00000000004007c2
+stmt:  ------ IMark(0x4007c2, 5, 0) ------
+stmt:  t4 = GET:I64(offset=48)
+stmt:  t3 = Sub64(t4,0x0000000000000008)
+stmt:  PUT(offset=48) = t3
+stmt:  STle(t3) = 0x00000000004007c7
+stmt:  t5 = Sub64(t3,0x0000000000000080)
+stmt:  ====== AbiHint(0xt5, 128, 0x00000000004006ed) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4007e0, 5, 0) ------
+stmt:  t24 = GET:I64(offset=48)
+stmt:  t23 = Add64(t24,0xffffffffffffffd8)
+stmt:  t25 = GET:I64(offset=56)
+stmt:  STle(t23) = t25
+stmt:  PUT(offset=184) = 0x00000000004007e5
+stmt:  ------ IMark(0x4007e5, 5, 0) ------
+stmt:  t26 = Add64(t24,0xffffffffffffffe0)
+stmt:  t28 = GET:I64(offset=112)
+stmt:  STle(t26) = t28
+stmt:  ------ IMark(0x4007ea, 7, 0) ------
+stmt:  PUT(offset=56) = 0x0000000000600e24
+stmt:  ------ IMark(0x4007f1, 7, 0) ------
+stmt:  PUT(offset=112) = 0x0000000000600e24
+stmt:  PUT(offset=184) = 0x00000000004007f8
+stmt:  ------ IMark(0x4007f8, 5, 0) ------
+stmt:  t29 = Add64(t24,0xffffffffffffffe8)
+stmt:  t31 = GET:I64(offset=120)
+stmt:  STle(t29) = t31
+stmt:  PUT(offset=184) = 0x00000000004007fd
+stmt:  ------ IMark(0x4007fd, 5, 0) ------
+stmt:  t32 = Add64(t24,0xfffffffffffffff0)
+stmt:  t34 = GET:I64(offset=128)
+stmt:  STle(t32) = t34
+stmt:  PUT(offset=184) = 0x0000000000400802
+stmt:  ------ IMark(0x400802, 5, 0) ------
+stmt:  t35 = Add64(t24,0xfffffffffffffff8)
+stmt:  t37 = GET:I64(offset=136)
+stmt:  STle(t35) = t37
+stmt:  PUT(offset=184) = 0x0000000000400807
+stmt:  ------ IMark(0x400807, 5, 0) ------
+stmt:  t38 = Add64(t24,0xffffffffffffffd0)
+stmt:  t40 = GET:I64(offset=40)
+stmt:  STle(t38) = t40
+stmt:  ------ IMark(0x40080c, 4, 0) ------
+stmt:  t8 = Sub64(t24,0x0000000000000038)
+stmt:  ------ IMark(0x400810, 3, 0) ------
+stmt:  ------ IMark(0x400813, 3, 0) ------
+stmt:  t43 = GET:I64(offset=72)
+stmt:  t42 = 64to32(t43)
+stmt:  t41 = 32Uto64(t42)
+stmt:  PUT(offset=120) = t41
+stmt:  ------ IMark(0x400816, 3, 0) ------
+stmt:  t44 = GET:I64(offset=64)
+stmt:  PUT(offset=128) = t44
+stmt:  ------ IMark(0x400819, 4, 0) ------
+stmt:  PUT(offset=144) = 0x0000000000000024
+stmt:  PUT(offset=152) = 0x0000000000000000
+stmt:  PUT(offset=160) = 0x0000000000000000
+stmt:  PUT(offset=56) = 0x0000000000000000
+stmt:  ------ IMark(0x40081d, 3, 0) ------
+stmt:  t54 = GET:I64(offset=32)
+stmt:  PUT(offset=136) = t54
+stmt:  PUT(offset=184) = 0x0000000000400820
+stmt:  ------ IMark(0x400820, 5, 0) ------
+stmt:  t55 = Sub64(t8,0x0000000000000008)
+stmt:  PUT(offset=48) = t55
+stmt:  STle(t55) = 0x0000000000400825
+stmt:  t57 = Sub64(t55,0x0000000000000080)
+stmt:  ====== AbiHint(0xt57, 128, 0x00000000004004e0) ======
+
+
+
+
+
+stmt:  ------ IMark(0x40082a, 2, 0) ------
+stmt:  PUT(offset=144) = 0x0000000000000013
+stmt:  PUT(offset=152) = 0x0000000000000000
+stmt:  PUT(offset=160) = 0x0000000000000000
+stmt:  PUT(offset=40) = 0x0000000000000000
+stmt:  ------ IMark(0x40082c, 4, 0) ------
+stmt:  ------ IMark(0x400830, 3, 0) ------
+stmt:  t17 = GET:I64(offset=136)
+stmt:  PUT(offset=32) = t17
+stmt:  ------ IMark(0x400833, 3, 0) ------
+stmt:  t18 = GET:I64(offset=128)
+stmt:  PUT(offset=64) = t18
+stmt:  ------ IMark(0x400836, 3, 0) ------
+stmt:  t21 = GET:I64(offset=120)
+stmt:  t20 = 64to32(t21)
+stmt:  t19 = 32Uto64(t20)
+stmt:  PUT(offset=72) = t19
+stmt:  PUT(offset=184) = 0x0000000000400839
+stmt:  ------ IMark(0x400839, 4, 0) ------
+stmt:  t25 = GET:I64(offset=112)
+stmt:  t6 = LDle:I64(t25)
+stmt:  t27 = GET:I64(offset=48)
+stmt:  t26 = Sub64(t27,0x0000000000000008)
+stmt:  PUT(offset=48) = t26
+stmt:  STle(t26) = 0x000000000040083d
+stmt:  t28 = Sub64(t26,0x0000000000000080)
+stmt:  ====== AbiHint(0xt28, 128, t6) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400830, 3, 0) ------
+stmt:  t4 = GET:I64(offset=136)
+stmt:  PUT(offset=32) = t4
+stmt:  ------ IMark(0x400833, 3, 0) ------
+stmt:  t5 = GET:I64(offset=128)
+stmt:  PUT(offset=64) = t5
+stmt:  ------ IMark(0x400836, 3, 0) ------
+stmt:  t8 = GET:I64(offset=120)
+stmt:  t7 = 64to32(t8)
+stmt:  t6 = 32Uto64(t7)
+stmt:  PUT(offset=72) = t6
+stmt:  PUT(offset=184) = 0x0000000000400839
+stmt:  ------ IMark(0x400839, 4, 0) ------
+stmt:  t11 = GET:I64(offset=40)
+stmt:  t10 = Shl64(t11,0x03)
+stmt:  t12 = GET:I64(offset=112)
+stmt:  t9 = Add64(t12,t10)
+stmt:  t2 = LDle:I64(t9)
+stmt:  t14 = GET:I64(offset=48)
+stmt:  t13 = Sub64(t14,0x0000000000000008)
+stmt:  PUT(offset=48) = t13
+stmt:  STle(t13) = 0x000000000040083d
+stmt:  t15 = Sub64(t13,0x0000000000000080)
+stmt:  ====== AbiHint(0xt15, 128, t2) ======
+
+
+
+
+
+stmt:  ------ IMark(0x400896, 5, 0) ------
+stmt:  ------ IMark(0x40089b, 5, 0) ------
+stmt:  t11 = GET:I64(offset=16)
+stmt:  ------ IMark(0x4008a0, 4, 0) ------
+stmt:  PUT(offset=144) = 0x0000000000000008
+stmt:  PUT(offset=152) = 0x0000000000600e28
+stmt:  PUT(offset=160) = 0x0000000000000008
+stmt:  PUT(offset=40) = 0x0000000000600e20
+stmt:  PUT(offset=184) = 0x00000000004008a4
+stmt:  ------ IMark(0x4008a4, 2, 0) ------
+stmt:  t16 = GET:I64(offset=48)
+stmt:  t15 = Sub64(t16,0x0000000000000008)
+stmt:  PUT(offset=48) = t15
+stmt:  STle(t15) = 0x00000000004008a6
+stmt:  t17 = Sub64(t15,0x0000000000000080)
+stmt:  ====== AbiHint(0xt17, 128, t11) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4008a0, 4, 0) ------
+stmt:  t2 = GET:I64(offset=40)
+stmt:  t0 = Sub64(t2,0x0000000000000008)
+stmt:  PUT(offset=144) = 0x0000000000000008
+stmt:  PUT(offset=152) = t2
+stmt:  PUT(offset=160) = 0x0000000000000008
+stmt:  PUT(offset=40) = t0
+stmt:  PUT(offset=184) = 0x00000000004008a4
+stmt:  ------ IMark(0x4008a4, 2, 0) ------
+stmt:  t7 = GET:I64(offset=16)
+stmt:  t9 = GET:I64(offset=48)
+stmt:  t8 = Sub64(t9,0x0000000000000008)
+stmt:  PUT(offset=48) = t8
+stmt:  STle(t8) = 0x00000000004008a6
+stmt:  t10 = Sub64(t8,0x0000000000000080)
+stmt:  ====== AbiHint(0xt10, 128, t7) ======
+
+
+
+
+
+stmt:  ------ IMark(0x4008b8, 4, 0) ------
+stmt:  t2 = GET:I64(offset=48)
+stmt:  t0 = Sub64(t2,0x0000000000000008)
+stmt:  PUT(offset=144) = 0x0000000000000008
+stmt:  PUT(offset=152) = t2
+stmt:  PUT(offset=160) = 0x0000000000000008
+stmt:  PUT(offset=184) = 0x00000000004008bc
+stmt:  ------ IMark(0x4008bc, 5, 0) ------
+stmt:  t5 = Sub64(t0,0x0000000000000008)
+stmt:  PUT(offset=48) = t5
+stmt:  STle(t5) = 0x00000000004008c1
+stmt:  t7 = Sub64(t5,0x0000000000000080)
+stmt:  ====== AbiHint(0xt7, 128, 0x00000000004005d0) ======
+
+
+
+
+
