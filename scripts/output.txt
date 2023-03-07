@@ -1,80 +1,53 @@
-Start address:  4195552
-<class 'int'>
-Start address:  4195584
-<class 'int'>
-Start address:  4195596
-<class 'int'>
-Start address:  4195600
-<class 'int'>
-Start address:  4195616
-<class 'int'>
-Start address:  4195632
-<class 'int'>
-Start address:  4195648
-<class 'int'>
-Start address:  4195664
-<class 'int'>
-Start address:  4195680
-<class 'int'>
-Start address:  4195696
-<class 'int'>
-Start address:  4195712
-<class 'int'>
-Start address:  4195753
-<class 'int'>
-Start address:  4195754
-<class 'int'>
-Start address:  4195756
-<class 'int'>
-Start address:  4195779
-<class 'int'>
-Start address:  4195792
-<class 'int'>
-Start address:  4195892
-<class 'int'>
-Start address:  4195904
-<class 'int'>
-Start address:  4195938
-<class 'int'>
-Start address:  4195940
-<class 'int'>
-Start address:  4196077
-<class 'int'>
-Start address:  4196093
-<class 'int'>
-Start address:  4196125
-<class 'int'>
-Start address:  4196309
-<class 'int'>
-Start address:  4196320
-<class 'int'>
-Start address:  4196457
-<class 'int'>
-Start address:  4196464
-<class 'int'>
-Start address:  4196466
-<class 'int'>
-Start address:  4196480
-<class 'int'>
-Start address:  4196534
-<class 'int'>
-Start address:  4196536
-<class 'int'>
-Start address:  7340032
-<class 'int'>
-Start address:  7340040
-<class 'int'>
-Start address:  7340048
-<class 'int'>
-Start address:  7340056
-<class 'int'>
-Start address:  7340064
-<class 'int'>
-Start address:  7340072
-<class 'int'>
-Start address:  7340080
-<class 'int'>
-Start address:  8392784
-<class 'int'>
-Start address:  8392792
-<class 'int'>
+
+Call block address:  0x400664
+Called function name:  strcmp
+Simproc:  (char*, char*) -> int
+
+Call block address:  0x400699
+Called function name:  open
+Simproc:  (char*, int, unsigned short) -> int
+
+Call block address:  0x4006af
+Called function name:  read
+Simproc:  (int, void*, unsigned long) -> long
+
+Call block address:  0x4006c8
+Called function name:  strcmp
+Simproc:  (char*, char*) -> int
+
+Call block address:  0x4006ed
+Called function name:  puts
+Simproc:  (char*) -> int
+
+Call block address:  0x4006fd
+Called function name:  printf
+Simproc:  (char*, ...) -> int
+
+Call block address:  0x400713
+Called function name:  exit
+Simproc:  (int) -> void
+
+Call block address:  0x40071d
+Called function name:  puts
+Simproc:  (char*) -> int
+
+Call block address:  0x40073e
+Called function name:  read
+Simproc:  (int, void*, unsigned long) -> long
+
+Call block address:  0x400754
+Called function name:  read
+Simproc:  (int, void*, unsigned long) -> long
+
+Call block address:  0x40076a
+Called function name:  puts
+Simproc:  (char*) -> int
+
+Call block address:  0x400774
+Called function name:  read
+Simproc:  (int, void*, unsigned long) -> long
+
+Call block address:  0x40078a
+Called function name:  read
+Simproc:  (int, void*, unsigned long) -> long
+
