@@ -1,0 +1,9 @@
+{
+    "open": {
+        "malArgs": [0]
+    },
+    "fopen": {
+        "malArgs": [0]
+    }
+
+}
