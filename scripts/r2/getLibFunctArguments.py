@@ -37,6 +37,12 @@ def getFOpenArguments():
     fopenAddr = [k for k, v in callDict.items() if v == 'fopen'][0]
 
     print("Address of the first instance of fopen: ", hex(fopenAddr))
+
+    # Resolve the arguments with which fopen is being called
+    fopenFunc = cfg.kb.functions.function(addr=fopenAddr)
+    fopenBlock = fopenFunc.blocks[0]
+    fopenIRSB = fopenBlock.vex
+    
     
 
 def main():
