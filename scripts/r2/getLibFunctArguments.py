@@ -16,7 +16,7 @@ def getCallAddrAndFuncNames():
 
     for func in cfg.kb.functions.values():
         for block in func.blocks:
-            try :
+            try:
                 irsb = block.vex
                 if(irsb.jumpkind == "Ijk_Call"):
                     fromAddr = irsb.addr
@@ -42,12 +42,12 @@ def getFOpenArguments():
     fopenFunc = cfg.kb.functions.function(addr=fopenAddr)
     fopenBlock = fopenFunc.blocks[0]
     fopenIRSB = fopenBlock.vex
-    
-    
+
 
 def main():
     getFOpenArguments()
     pass
+
 
 if __name__ == '__main__':
     main()
