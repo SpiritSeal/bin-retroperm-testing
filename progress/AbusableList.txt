@@ -1,0 +1,4 @@
+
+libc: https://github.com/angr/angr/blob/master/angr/procedures/definitions/glibc.py
+
+open: [0,1]

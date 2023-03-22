@@ -10,3 +10,7 @@ def list_all_functions(prog):
         print("> Is it a library function? ", func.is_plt)
         print("> Is it a syscall? ", func.is_syscall)
         print()
+
+
+if __name__ == '__main__':
+    list_all_functions('../executables/open_example')

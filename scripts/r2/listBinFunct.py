@@ -15,5 +15,5 @@ def list_all_functions(prog):
 
 # main
 if __name__ == '__main__':
-    program = "../executables/fauxware"
+    program = "../../executables/fauxware"
     list_all_functions(program)

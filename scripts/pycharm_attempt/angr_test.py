@@ -1,4 +1,5 @@
 import angr
+# Get the address of the first instance of fopen in the dictionary
 import pprint
 import os
 import monkeyhex
