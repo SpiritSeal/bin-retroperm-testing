@@ -2,6 +2,8 @@
 from typing import List
 import angr
 from angr.analyses import CompleteCallingConventionsAnalysis
+from angr.sim_type import SimTypeFunction
+from data import abusable_funcs
 
 
 def get_arg_locations(func: angr.knowledge_plugins.functions.function.Function) -> \
@@ -13,13 +15,19 @@ def get_arg_locations(func: angr.knowledge_plugins.functions.function.Function) 
 
     return func.arguments
 
+def is_abusable(func: angr.sim_procedure.SimProcedure) -> bool:
+    """
+    Check if a simproc function is abusable
+    """
+    if func in abusable_funcs:
+        return True
+
+
 def get_abusable_arg_locations(func: angr.knowledge_plugins.functions.function.Function) -> \
         List[angr.calling_conventions.SimRegArg]:
     """
     Get the argument locations of a function that are potentially abusable
     """
-
-
 
 
 if __name__ == "__main__":
