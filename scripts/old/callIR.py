@@ -3,7 +3,7 @@
 import angr
 import pyvex
 
-p = angr.Project('../executables/fauxware', auto_load_libs=False)
+p = angr.Project('../../executables/fauxware', auto_load_libs=False)
 # p = angr.Project('../executables/objdump_ubuntu18_stripped', auto_load_libs=False)
 
 cfg = p.analyses.CFGFast()
