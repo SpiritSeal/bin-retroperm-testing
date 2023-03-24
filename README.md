@@ -1,3 +1,3 @@
-# Retroactive Executable Permission Generation Framework
+# Retroactive Executable Permission Generation Framework Testing Environment
 
-A retroactive permissions system for precompiled binaries built using angr.
+A testing ground for a retroactive permissions system for precompiled binaries built using angr.
